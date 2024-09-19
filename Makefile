@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -I./shapes -I./arrayListType
+CXXFLAGS = -std=c++11 -I./shapes 
 
 # Directories
 SHAPE_DIR = shapes
