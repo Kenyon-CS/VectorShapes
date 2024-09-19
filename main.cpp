@@ -11,7 +11,7 @@ int main() {
     // Create some shapes
     Shape* circle1 = new Circle(5.0);        // A circle with radius 5.0
     Shape* rectangle1 = new Rectangle(4.0, 6.0); // A rectangle with width 4.0 and height 6.0
-    Shape* triangle1 = new Triangle(3.0, 4.0, 5.0); // A triangle with sides 3.0, 4.0, and 5.0
+    Shape* triangle1 = new Triangle(3.0, 4.0); // A triangle with base and height 3.0 and 4.0
     Shape* circle2 = new Circle(7.0);        // Another circle with radius 7.0
     Shape* rectangle2 = new Rectangle(8.0, 10.0); // Another rectangle with width 8.0 and height 10.0
 
@@ -40,7 +40,7 @@ int main() {
 
     // Insert a new shape (triangle1) at the beginning of the vector
     std::cout << "\nInserting a new triangle at the beginning..." << std::endl;
-    shapes.insert(shapes.begin(), new Triangle(6.0, 8.0, 10.0));  // New triangle with sides 6, 8, 10
+    shapes.insert(shapes.begin(), new Triangle(6.0, 8.0));  // New triangle with sides 6, 8
 
     // Insert a new shape (circle) in the middle of the vector
     std::cout << "Inserting a new circle in the middle..." << std::endl;
