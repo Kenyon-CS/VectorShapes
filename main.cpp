@@ -25,7 +25,7 @@ int main() {
     // Display the shapes (assuming they have a display method)
     std::cout << "Initial shapes in the vector:" << std::endl;
     for (Shape* shape : shapes) {
-        cout << shape->describe() << endl;  // Assuming the display method shows information about the shape
+        std::cout << shape->describe() << std::endl;  // Assuming the display method shows information about the shape
     }
 
     // Remove the second shape (rectangle1) from the vector
@@ -35,7 +35,7 @@ int main() {
     // Display the shapes after removal
     std::cout << "Shapes in the vector after removal:" << std::endl;
     for (Shape* shape : shapes) {
-        cout << shape->describe() << endl;
+        std::cout << shape->describe() << std::endl;
     }
 
     // Insert a new shape (triangle1) at the beginning of the vector
@@ -53,7 +53,7 @@ int main() {
     // Display the shapes after insertions
     std::cout << "\nShapes in the vector after insertions:" << std::endl;
     for (Shape* shape : shapes) {
-        cout << shape->describe() << endl;
+        std::cout << shape->describe() << std::endl;
     }
 
     // Clean up memory
