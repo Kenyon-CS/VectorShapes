@@ -9,7 +9,7 @@ TARGET = shapevector
 # Files
 SHAPE_FILES = $(SHAPE_DIR)/circle.cpp $(SHAPE_DIR)/triangle.cpp $(SHAPE_DIR)/rectangle.cpp
 
-OBJECTS = $(OBJ_DIR)/circle.o $(OBJ_DIR)/triangle.o $(OBJ_DIR)/rectangle.o $(OBJ_DIR)/testshapelist.o
+OBJECTS = $(OBJ_DIR)/circle.o $(OBJ_DIR)/triangle.o $(OBJ_DIR)/rectangle.o $(OBJ_DIR)/main.o
 
 all: $(OBJ_DIR) $(TARGET)
 
