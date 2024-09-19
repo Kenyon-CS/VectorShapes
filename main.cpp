@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
-#include "Circle.h"     // Assuming these headers exist in the shapes repo
-#include "Rectangle.h"  // Add the necessary includes for other shapes
-#include "Triangle.h"
+#include "circle.h"     // Assuming these headers exist in the shapes repo
+#include "rectangle.h"  // Add the necessary includes for other shapes
+#include "triangle.h"
 
 int main() {
     // Vector to hold pointers to Shape objects
